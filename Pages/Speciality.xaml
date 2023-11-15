@@ -5,12 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Submission_of_Applications_Тепляков.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="610" d:DesignWidth="792"
+      d:DesignHeight="570" d:DesignWidth="792"
       Title="Speciality">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,550.6" Background="White">
-            <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source=""/>
+        <Grid Margin="0,0,0,510.6" Background="White">
+            <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="E:\мое\ПР16\Submission of Applications_Тепляков\Images\Логотип_Пермский_авиационный_техникум.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А.Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
@@ -35,9 +35,9 @@
             <Label Content="Выберете один из вариантов:" HorizontalAlignment="Left" Margin="20,311,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
             <RadioButton Content="впервые" HorizontalAlignment="Left" Margin="22,331,0,0" VerticalAlignment="Top"/>
             <RadioButton Content="не впервые" HorizontalAlignment="Left" Margin="22,346,0,0" VerticalAlignment="Top"/>
-            <CheckBox HorizontalAlignment="Left" Margin="22,441,0,0" VerticalAlignment="Top"/>
-            <TextBlock Text="      С лицензией на право осуществления образовательной деятельности, свидетельством о государственной аккредитации, правилами приема и правилами внутреннего распорядка обучающихся в данном учреждении, с Уставом Техникума ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,440,0,0" VerticalAlignment="Top" TextWrapping="Wrap"/>
-            <CheckBox Content="С датой предоставления оригиналов документов ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,491,0,0" VerticalAlignment="Top"/>
+            <CheckBox HorizontalAlignment="Left" Margin="22,411,0,0" VerticalAlignment="Top"/>
+            <TextBlock Text="       С лицензией на право осуществления образовательной деятельности, свидетельством о государственной аккредитации, правилами приема и правилами внутреннего распорядка обучающихся в данном учреждении, с Уставом Техникума ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,410,0,0" VerticalAlignment="Top" TextWrapping="Wrap"/>
+            <CheckBox Content="С датой предоставления оригиналов документов ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,451,0,0" VerticalAlignment="Top"/>
             <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages_4"/>
         </Grid>
     </Grid>
