@@ -9,7 +9,7 @@
       Title="Speciality">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,550.6" Background="White">
+        <Grid Background="White" Height="59" VerticalAlignment="Top">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="E:\мое\ПР16\Submission of Applications_Тепляков\Images\Логотип_Пермский_авиационный_техникум.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А.Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
@@ -38,7 +38,7 @@
             <CheckBox HorizontalAlignment="Left" Margin="22,441,0,0" VerticalAlignment="Top"/>
             <TextBlock Text="      С лицензией на право осуществления образовательной деятельности, свидетельством о государственной аккредитации, правилами приема и правилами внутреннего распорядка обучающихся в данном учреждении, с Уставом Техникума ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,440,0,0" VerticalAlignment="Top" TextWrapping="Wrap"/>
             <CheckBox Content="С датой предоставления оригиналов документов ознакомлен(-а)" HorizontalAlignment="Left" Margin="22,491,0,0" VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages_4"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages"/>
         </Grid>
     </Grid>
 </Page>

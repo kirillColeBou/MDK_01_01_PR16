@@ -22,7 +22,23 @@ namespace Submission_of_Applications_Тепляков
     {
         public MainWindow()
         {
+            this.SizeToContent = SizeToContent.Manual;
+            this.SizeToContent = SizeToContent.Width;
+            this.SizeToContent = SizeToContent.Height;
+            this.SizeToContent = SizeToContent.WidthAndHeight;
             InitializeComponent();
+            OpenPages(pages.statement);
+        }
+
+        public enum pages
+        {
+            statement
+        }
+
+        public void OpenPages(pages _pages)
+        {
+            if (_pages == pages.statement)
+                frame.Navigate(new Pages.Statement());
         }
     }
 }

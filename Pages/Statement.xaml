@@ -9,7 +9,7 @@
       Title="Statement">
 
     <Grid Background="#F8F9FA">
-        <Grid Margin="0,0,0,349.6" Background="White">
+        <Grid Background="White" Height="60" VerticalAlignment="Top">
             <Image HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="40" Source="E:\мое\ПР16\Submission of Applications_Тепляков\Images\Логотип_Пермский_авиационный_техникум.png"/>
             <Label Content="Электронная приемная компания" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
             <Label Content="Пермского авиационного техникума им. А.Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
@@ -28,7 +28,7 @@
             <TextBox Height="24" Margin="12,237,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Год окончания образовательной организации" HorizontalAlignment="Left" Margin="12,266,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="12,291,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages_1"/>
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages"/>
         </Grid>
     </Grid>
 </Page>

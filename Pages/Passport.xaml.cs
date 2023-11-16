@@ -24,5 +24,15 @@ namespace Submission_of_Applications_Тепляков.Pages
         {
             InitializeComponent();
         }
+
+        private void Format_doc(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Next_Pages(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
