@@ -25,9 +25,9 @@ namespace Submission_of_Applications_Тепляков.Pages
             InitializeComponent();
         }
 
-        private void Next_Pages(object sender, RoutedEventArgs e)
+        public void Next_Pages(object sender, RoutedEventArgs e) 
         {
-            
+            MainWindow.main.OpenPages(MainWindow.pages.education);
         }
     }
 }

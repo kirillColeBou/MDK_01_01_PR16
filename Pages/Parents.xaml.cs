@@ -27,7 +27,8 @@ namespace Submission_of_Applications_Тепляков.Pages
 
         private void Next_Pages(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Заявка подана, ожидайте результатов!");
+            MainWindow.main.Close();
         }
     }
 }

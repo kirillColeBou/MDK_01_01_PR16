@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Submission_of_Applications_Тепляков.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,25 +21,36 @@ namespace Submission_of_Applications_Тепляков
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow main;
         public MainWindow()
         {
-            this.SizeToContent = SizeToContent.Manual;
-            this.SizeToContent = SizeToContent.Width;
-            this.SizeToContent = SizeToContent.Height;
-            this.SizeToContent = SizeToContent.WidthAndHeight;
             InitializeComponent();
             OpenPages(pages.statement);
+            this.SizeToContent = SizeToContent.Height;
+            main = this;
         }
 
         public enum pages
         {
-            statement
+            statement, education, status, speciality, passport, contacts, parents
         }
 
         public void OpenPages(pages _pages)
         {
             if (_pages == pages.statement)
                 frame.Navigate(new Pages.Statement());
+            if (_pages == pages.education)
+                frame.Navigate(new Pages.Education());
+            if (_pages == pages.status)
+                frame.Navigate(new Pages.Status());
+            if (_pages == pages.speciality)
+                frame.Navigate(new Pages.Speciality());
+            if (_pages == pages.passport)
+                frame.Navigate(new Pages.Passport());
+            if (_pages == pages.contacts)
+                frame.Navigate(new Pages.Contacts());
+            if (_pages == pages.parents)
+                frame.Navigate(new Pages.Parents());
         }
     }
 }

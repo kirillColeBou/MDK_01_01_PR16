@@ -17,11 +17,11 @@
         <Grid Margin="0,60,0,-0.4">
             <Label Content="Контакты" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
             <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="10,76,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="number_home" Height="24" Margin="10,76,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Мобильный номер:" HorizontalAlignment="Right" Margin="0,41,265,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="410,76,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="number_mobile" Height="24" Margin="410,76,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Электронный адрес:" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="10,146,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="email_address" Height="24" Margin="10,146,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages"/>
         </Grid>
     </Grid>

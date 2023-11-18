@@ -32,7 +32,7 @@ namespace Submission_of_Applications_Тепляков.Pages
 
         private void Next_Pages(object sender, RoutedEventArgs e)
         {
-
+            MainWindow.main.OpenPages(MainWindow.pages.status);
         }
     }
 }

@@ -25,9 +25,9 @@
             <CheckBox Content="по договору (платно)" HorizontalAlignment="Left" Margin="22,165,0,0" VerticalAlignment="Top"/>
             <Label Content="О себе сообщаю следующее:" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top"/>
             <Label Content="Окончил (Наименование образовательной организации, город)" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="12,237,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="st_edu_ins_and_city" Height="24" Margin="12,237,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Label Content="Год окончания образовательной организации" HorizontalAlignment="Left" Margin="12,266,0,0" VerticalAlignment="Top"/>
-            <TextBox Height="24" Margin="12,291,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="year_0f_graduation" Height="24" Margin="12,291,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
             <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="150" Height="25" Click="Next_Pages"/>
         </Grid>
     </Grid>
