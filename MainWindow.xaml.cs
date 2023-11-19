@@ -26,7 +26,6 @@ namespace Submission_of_Applications_Тепляков
         {
             InitializeComponent();
             OpenPages(pages.statement);
-            this.SizeToContent = SizeToContent.Height;
             main = this;
         }
 

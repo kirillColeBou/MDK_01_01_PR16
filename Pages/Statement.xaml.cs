@@ -27,6 +27,16 @@ namespace Submission_of_Applications_Тепляков.Pages
 
         public void Next_Pages(object sender, RoutedEventArgs e) 
         {
+            if (string.IsNullOrEmpty(st_edu_ins_and_city.Text) || !Classes.CheckRegex.Match(@"[а-яА-Я0-9, ]$", st_edu_ins_and_city.Text))
+            {
+                MessageBox.Show("Не правильно указано место обучения!", "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                return;
+            }
+            if (string.IsNullOrEmpty(year_of_graduation.Text) || !Classes.CheckRegex.Match("^[0-9]{4}$", year_of_graduation.Text))
+            {
+                MessageBox.Show("Не правильно указан год окончания!", "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                return;
+            }
             MainWindow.main.OpenPages(MainWindow.pages.education);
         }
     }

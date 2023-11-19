@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,17 @@ namespace Submission_of_Applications_Тепляков.Pages
         public Status()
         {
             InitializeComponent();
+            MainWindow.main.SizeToContent = SizeToContent.Manual;
+            MainWindow.main.SizeToContent = SizeToContent.Height;
         }
 
         private void Format_doc(object sender, RoutedEventArgs e)
         {
-
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "(*.jpg; *.jpeg; *.png; *.pdf)|*.jpg;*.jpeg;*.png;*.pdf";
+            ofd.Title = "Выберите несколько фотографий"; ofd.Multiselect = true;
+            if (ofd.ShowDialog() == true) ;
+            format_file.Text += ofd.FileName;
         }
 
         private void Next_Pages(object sender, RoutedEventArgs e)

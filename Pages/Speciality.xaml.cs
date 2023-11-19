@@ -23,6 +23,8 @@ namespace Submission_of_Applications_Тепляков.Pages
         public Speciality()
         {
             InitializeComponent();
+            MainWindow.main.SizeToContent = SizeToContent.Manual;
+            MainWindow.main.Height = MainWindow.main.ActualHeight + 60;
         }
 
         private void Next_Pages(object sender, RoutedEventArgs e)
