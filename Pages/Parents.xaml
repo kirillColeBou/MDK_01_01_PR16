@@ -19,39 +19,39 @@
             <Label Content="Если родитель один, заполнить данные на одного родителя" HorizontalAlignment="Left" Margin="20,30,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
             <Label Content="Мать (или законный представитель):" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
             <Label Content="Фамилия, имя, отчество (полностью):" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="FIO_mother" Height="24" Margin="10,105,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="FIO_mother" Height="24" Margin="10,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Дата рождения:" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="date_of_birth_mother" Height="24" Margin="10,165,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="date_of_birth_mother" Height="24" Margin="10,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Место работы:" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="place_of_work_mother" Height="24" Margin="10,225,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="place_of_work_mother" Height="24" Margin="10,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Должность:" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="post_mother" Height="24" Margin="10,285,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="post_mother" Height="24" Margin="10,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Место жительства:" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="place_of_residence_mother" Height="24" Margin="10,345,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="place_of_residence_mother" Height="24" Margin="10,345,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="10,375,0,0" VerticalAlignment="Top"/>
             <Label Content="(при наличии)" HorizontalAlignment="Left" Margin="20,400,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox x:Name="number_home_mother" Height="24" Margin="10,435,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Label Content="Мобильный номер:" HorizontalAlignment="Right" Margin="0,375,265,0" VerticalAlignment="Top"/>
-            <Label Content="(при наличии)" HorizontalAlignment="Right" Margin="0,400,285,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox x:Name="number_mobile_mother" Height="24" Margin="410,435,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="number_home_mother" Height="24" Margin="10,435,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="372"/>
+            <Label Content="Мобильный номер:" HorizontalAlignment="Left" Margin="409,375,0,0" VerticalAlignment="Top"/>
+            <Label Content="(при наличии)" HorizontalAlignment="Left" Margin="432,400,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+            <TextBox x:Name="number_mobile_mother" Height="24" Margin="410,435,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="372"/>
             <CheckBox Content="Настоящим подтверждаю, что персональные данные на третью" HorizontalAlignment="Left" Margin="10,465,0,0" VerticalAlignment="Top"/>
             <Label Content="Отец (или законный представитель):" HorizontalAlignment="Left" Margin="10,500,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
             <Label Content="Фамилия, имя, отчество (полностью):" HorizontalAlignment="Left" Margin="10,530,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="FIO_father" Height="24" Margin="10,560,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="FIO_father" Height="24" Margin="10,560,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Дата рождения:" HorizontalAlignment="Left" Margin="10,590,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="date_of_birth_father" Height="24" Margin="10,620,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="date_of_birth_father" Height="24" Margin="10,620,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Место работы:" HorizontalAlignment="Left" Margin="10,650,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="place_of_work_father" Height="24" Margin="10,680,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="place_of_work_father" Height="24" Margin="10,680,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Должность:" HorizontalAlignment="Left" Margin="10,710,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="post_father" Height="24" Margin="10,740,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="post_father" Height="24" Margin="10,740,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Место жительства:" HorizontalAlignment="Left" Margin="10,770,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="place_of_residence_father" Height="24" Margin="10,800,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="place_of_residence_father" Height="24" Margin="10,800,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="772"/>
             <Label Content="Домашний номер:" HorizontalAlignment="Left" Margin="10,830,0,0" VerticalAlignment="Top"/>
             <Label Content="(при наличии)" HorizontalAlignment="Left" Margin="20,860,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox x:Name="number_home_father" Height="24" Margin="10,890,410,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <Label Content="Мобильный номер:" HorizontalAlignment="Right" Margin="0,830,265,0" VerticalAlignment="Top"/>
-            <Label Content="(при наличии)" HorizontalAlignment="Right" Margin="0,860,285,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
-            <TextBox x:Name="number_mobile_father" Height="24" Margin="410,890,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="number_home_father" Height="24" Margin="10,890,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="372"/>
+            <Label Content="Мобильный номер:" HorizontalAlignment="Left" Margin="409,830,0,0" VerticalAlignment="Top"/>
+            <Label Content="(при наличии)" HorizontalAlignment="Left" Margin="432,860,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
+            <TextBox x:Name="number_mobile_father" Height="24" Margin="410,890,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" HorizontalAlignment="Left" Width="372"/>
             <CheckBox Content="Настоящим подтверждаю, что персональные данные на третью" HorizontalAlignment="Left" Margin="10,920,0,0" VerticalAlignment="Top"/>
             <Button Content="Подать заявку на поступление" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="190" Height="25" Click="Next_Pages"/>
         </Grid>

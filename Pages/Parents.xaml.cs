@@ -25,7 +25,7 @@ namespace Submission_of_Applications_Тепляков.Pages
         {
             InitializeComponent();
             MainWindow.main.SizeToContent = SizeToContent.Manual;
-            MainWindow.main.SizeToContent = SizeToContent.Height;
+            MainWindow.main.Height = MainWindow.main.ActualHeight + 610;
         }
 
         private void Next_Pages(object sender, RoutedEventArgs e)

@@ -26,6 +26,7 @@ namespace Submission_of_Applications_Тепляков.Pages
             InitializeComponent();
             MainWindow.main.SizeToContent = SizeToContent.Manual;
             MainWindow.main.Height = MainWindow.main.ActualHeight + 60;
+            MainWindow.main.Width = MainWindow.main.ActualWidth + 10;
         }
 
         private void Format_doc(object sender, RoutedEventArgs e)

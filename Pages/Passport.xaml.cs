@@ -26,7 +26,7 @@ namespace Submission_of_Applications_Тепляков.Pages
         {
             InitializeComponent();
             MainWindow.main.SizeToContent = SizeToContent.Manual;
-            MainWindow.main.SizeToContent = SizeToContent.Height;
+            MainWindow.main.Height = MainWindow.main.ActualHeight + 240;
         }
 
         private void Format_doc(object sender, RoutedEventArgs e)
@@ -34,7 +34,7 @@ namespace Submission_of_Applications_Тепляков.Pages
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "Pictures (*.jpg; *.jpeg; *.png; *.pdf)|*.jpg;*.jpeg;*.png;*.pdf";
             ofd.Title = "Выберите несколько фотографий"; ofd.Multiselect = true;
-            if (ofd.ShowDialog() == true) ;
+            if (ofd.ShowDialog() == true);
             format_file.Text += ofd.FileName;
         }
 
